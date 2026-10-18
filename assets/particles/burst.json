@@ -1,0 +1,76 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 128,
+    "height": 128
+  },
+  "durationMs": 900,
+  "fps": 30,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "shards",
+      "shape": "point",
+      "position": [
+        64.0,
+        64.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 1.0,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 28,
+        "atMs": 0.0
+      },
+      "lifetimeMs": 760.0,
+      "lifetimeSpread": 140.0,
+      "speed": 58.0,
+      "speedSpread": 24.0,
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "coneAngle": 180.0,
+      "seed": 4815,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "ease-out",
+          "from": 3.5,
+          "to": 0.2
+        },
+        "opacityCurve": {
+          "interp": "ease-in",
+          "from": 1.0,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#f4f8ff",
+            "at": 0.0
+          },
+          {
+            "color": "#59d9ff",
+            "at": 0.35
+          },
+          {
+            "color": "#8247a8",
+            "at": 1.0
+          }
+        ],
+        "rotation": 220.0,
+        "stretch": 1.8
+      }
+    }
+  ],
+  "forces": {},
+  "subEmitters": []
+}
